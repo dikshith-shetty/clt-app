@@ -5,7 +5,7 @@
     position: relative;
     display: block;
     padding: 80px 0 80px;
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     z-index: 1;
 }
 
@@ -48,8 +48,8 @@
 .brand-two {
     position: relative;
     display: block;
-    border-top: 1px solid var(--gorent-bdr-color);
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-top: 1px solid var(--clt-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     padding: 29px 0 29px;
     z-index: 1;
 }
@@ -61,13 +61,13 @@
 
 .brand-two__text {
     font-size: 22px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
     line-height: 1.5em;
 }
 
 .brand-two__text span {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 700;
 }
 

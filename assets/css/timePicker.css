@@ -38,8 +38,8 @@
 #ptTimeSelectCntr .ui-widget {}
 
 #ptTimeSelectCntr .ui-widget-header {
-  background: var(--gorent-base) none repeat scroll 0 0;
-  border: 2px solid var(--gorent-base);
+  background: var(--clt-base) none repeat scroll 0 0;
+  border: 2px solid var(--clt-base);
   border-radius: 0;
   color: #fff;
   font-size: 13px;

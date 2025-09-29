@@ -4,7 +4,7 @@
 .lets-talk {
     position: relative;
     display: block;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     overflow: hidden;
     padding: 78px 0 81px;
     z-index: 1;
@@ -38,7 +38,7 @@
 
 .lets-talk__title p {
     font-size: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
     line-height: 20px;
 }
@@ -65,7 +65,7 @@
 }
 
 .lets-talk__btn-1 .thm-btn {
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
 }
 
 .lets-talk__btn-2 {
@@ -74,16 +74,16 @@
 }
 
 .lets-talk__btn-2 .thm-btn {
-    background-color: var(--gorent-black);
-    color: var(--gorent-white);
+    background-color: var(--clt-black);
+    color: var(--clt-white);
 }
 
 .lets-talk__btn-2 .thm-btn::after {
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
 }
 
 .lets-talk__btn-2 .thm-btn:hover {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 

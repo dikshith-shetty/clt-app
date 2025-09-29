@@ -5,7 +5,7 @@
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     z-index: 1;
 }
 
@@ -43,7 +43,7 @@
 
 .page-header__inner h3 {
     font-size: 60px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     line-height: 1.3em;
     font-weight: 700;
     text-transform: uppercase;
@@ -66,9 +66,9 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     text-transform: uppercase;
-    font-family: var(--gorent-font-two);
+    font-family: var(--clt-font-two);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
@@ -83,18 +83,18 @@
     font-size: 15px;
     font-weight: 600;
     line-height: 18px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     text-transform: uppercase;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .thm-breadcrumb li:hover a {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     opacity: 1;
 }
 
 .thm-breadcrumb li span {
     font-size: 12px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }

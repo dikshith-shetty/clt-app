@@ -6,7 +6,7 @@ Error Page
 .error-page {
     position: relative;
     display: block;
-    background: var(--gorent-white);
+    background: var(--clt-white);
     padding: 120px 0px 120px;
     z-index: 1;
 }
@@ -32,7 +32,7 @@ Error Page
 }
 
 .error-page__content h2 {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-size: 40px;
     line-height: 1.5em;
     font-weight: 700;
@@ -41,7 +41,7 @@ Error Page
 }
 
 .error-page__content p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
     margin: 0;
 }
 

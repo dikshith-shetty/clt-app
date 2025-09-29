@@ -12,7 +12,7 @@
 .process-one__single {
     position: relative;
     display: block;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     border-radius: 20px;
     padding: 45px 25px 33px;
     margin-bottom: 30px;
@@ -48,7 +48,7 @@
     left: 25px;
     right: 80px;
     height: 5px;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     transform: translateY(-50%);
     opacity: .20;
     transition: all 500ms ease;
@@ -62,14 +62,14 @@
     right: -10px;
     height: 20px;
     width: 20px;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     clip-path: polygon(0 0, 0 100%, 100% 50%);
     transition: all 500ms ease;
 }
 
 .process-one__single:hover .process-one__icon-shape,
 .process-one__single:hover .process-one__icon-shape:before {
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     opacity: 1;
 }
 
@@ -80,7 +80,7 @@
     justify-content: center;
     height: 60px;
     width: 60px;
-    background-color: rgba(var(--gorent-base-rgb), 1);
+    background-color: rgba(var(--clt-base-rgb), 1);
     border-radius: 50%;
     z-index: 1;
 }
@@ -92,7 +92,7 @@
     left: -5px;
     right: -5px;
     bottom: -5px;
-    border: 5px solid rgba(var(--gorent-base-rgb), .20);
+    border: 5px solid rgba(var(--clt-base-rgb), .20);
     border-radius: 50%;
     z-index: -1;
 }
@@ -101,7 +101,7 @@
     position: relative;
     display: inline-block;
     font-size: 30px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     transition: all 500ms ease;
 }
 
@@ -127,8 +127,8 @@
     line-height: 50px;
     font-weight: 700;
     color: transparent;
-    -webkit-text-stroke: 1px rgba(var(--gorent-white-rgb), .70);
-    font-family: var(--gorent-font-two);
+    -webkit-text-stroke: 1px rgba(var(--clt-white-rgb), .70);
+    font-family: var(--clt-font-two);
     counter-increment: count;
     content: "0"counter(count);
     -webkit-transition: all 500ms ease;
@@ -136,11 +136,11 @@
 }
 
 .process-one__single:hover .process-one__count::before {
-    -webkit-text-stroke: 1px rgba(var(--gorent-base-rgb), 1);
+    -webkit-text-stroke: 1px rgba(var(--clt-base-rgb), 1);
 }
 
 .process-one__title {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-size: 22px;
     font-weight: 700;
     line-height: 32px;
@@ -151,7 +151,7 @@
 }
 
 .process-one__text {
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }

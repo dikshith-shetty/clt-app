@@ -17,7 +17,7 @@
     position: absolute;
     top: 0;
     left: -180px;
-    border-bottom: 180px solid var(--gorent-base);
+    border-bottom: 180px solid var(--clt-base);
     border-left: 180px solid transparent;
     border-right: 0px solid transparent;
     content: "";
@@ -30,7 +30,7 @@
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     padding: 59px 60px 59px;
     border-top-right-radius: 20px;
     overflow: hidden;
@@ -44,7 +44,7 @@
     bottom: -1px;
     right: -5px;
     width: 55%;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     clip-path: polygon(0 0, 100% 0%, 100% 100%, 18% 100%);
     z-index: -1;
 }
@@ -68,7 +68,7 @@
 
 .call-one__sub-title {
     font-size: 16px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
     margin-bottom: 8px;
 }
@@ -94,7 +94,7 @@
     justify-content: center;
     height: 40px;
     width: 40px;
-    background-color: rgba(var(--gorent-white-rgb), .90);
+    background-color: rgba(var(--clt-white-rgb), .90);
     border-radius: 50%;
     z-index: 1;
 }
@@ -106,7 +106,7 @@
     left: -3px;
     right: -3px;
     bottom: -3px;
-    border: 3px solid rgba(var(--gorent-white-rgb), .30);
+    border: 3px solid rgba(var(--clt-white-rgb), .30);
     border-radius: 50%;
 }
 
@@ -114,7 +114,7 @@
     position: relative;
     display: inline-block;
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .call-one__content {
@@ -123,7 +123,7 @@
 }
 
 .call-one__content p {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 500;
 }
 
@@ -135,11 +135,11 @@
 }
 
 .call-one__content h4 a {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .call-one__content h4 a:hover {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .call-one__btn-box {
@@ -148,11 +148,11 @@
 }
 
 .call-one__btn-box .thm-btn::after {
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
 }
 
 .call-one__btn-box .thm-btn:hover {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 

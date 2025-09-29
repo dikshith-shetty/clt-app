@@ -35,7 +35,7 @@
 .pricing-one__single {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
     padding: 36px 40px 37px;
     border-radius: 20px;
@@ -48,7 +48,7 @@
 
 .pricing-one__single:hover {
     transform: translateY(-10px);
-    border-bottom: 3px solid var(--gorent-base);
+    border-bottom: 3px solid var(--clt-base);
 }
 
 .pricing-one__title-box {
@@ -66,7 +66,7 @@
 .pricing-one__text {
     font-size: 14px;
     line-height: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .pricing-one__price-and-icon-box {
@@ -77,7 +77,7 @@
     flex-wrap: wrap;
     margin-top: 18px;
     margin-bottom: 29px;
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     padding-bottom: 16px;
 }
 
@@ -96,8 +96,8 @@
     font-size: 16px;
     font-weight: 400;
     line-height: 16px;
-    color: var(--gorent-gray);
-    font-family: var(--gorent-font);
+    color: var(--clt-gray);
+    font-family: var(--clt-font);
 }
 
 .pricing-one__icon-box {
@@ -107,7 +107,7 @@
     justify-content: center;
     height: 60px;
     width: 60px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 50%;
     overflow: hidden;
     z-index: 1;
@@ -121,7 +121,7 @@
     right: 0;
     bottom: 0;
     border-radius: 50%;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     transform: scaleX(0.7) rotateX(20deg);
     opacity: 0;
     transition: all 0.4s linear;
@@ -136,7 +136,7 @@
 
 .pricing-one__icon-box span {
     font-size: 30px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     position: relative;
     display: inline-block;
     transition: all 500ms linear;
@@ -146,7 +146,7 @@
 
 .pricing-one__single:hover .pricing-one__icon-box span {
     transform: scale(0.9);
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .list-unstyled.pricing-one__points {
@@ -177,7 +177,7 @@
     position: relative;
     display: inline-block;
     font-size: 15px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
 }
 
@@ -210,7 +210,7 @@
 .pricing-two__list>li {
     position: relative;
     display: block;
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
@@ -242,8 +242,8 @@
     display: block;
     width: 280px;
     overflow: hidden;
-    border: 1px solid var(--gorent-bdr-color);
-    border-radius: var(--gorent-bdr-radius);
+    border: 1px solid var(--clt-bdr-color);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .pricing-two__img img {
@@ -258,11 +258,11 @@
 
 .pricing-two__title {
     font-size: 40px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 600;
     text-transform: capitalize;
     line-height: 40px;
-    font-family: var(--gorent-font);
+    font-family: var(--clt-font);
     margin-bottom: 15px;
 }
 
@@ -270,14 +270,14 @@
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .pricing-two__price-box span {
     font-weight: 400;
     font-size: 20px;
     line-height: 20px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .pricing-two__right-content {
@@ -310,7 +310,7 @@
     display: flex;
     align-items: center;
     font-size: 16px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .pricing-two__points>li .text {
@@ -320,7 +320,7 @@
 }
 
 .pricing-two__points>li .text p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
 }
 

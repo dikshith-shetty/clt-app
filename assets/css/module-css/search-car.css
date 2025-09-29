@@ -37,9 +37,9 @@
 .search-car__inner {
     position: relative;
     display: block;
-    background-color: rgba(var(--gorent-base-rgb), .10);
+    background-color: rgba(var(--clt-base-rgb), .10);
     padding: 50px 60px 40px;
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
     margin-right: 50px;
 }
 
@@ -72,8 +72,8 @@
     font-size: 16px;
     line-height: 16px;
     font-weight: 400;
-    color: var(--gorent-white);
-    background-color: var(--gorent-black);
+    color: var(--clt-white);
+    background-color: var(--clt-black);
     padding: 17px 30px 17px;
     text-transform: capitalize;
     cursor: pointer;
@@ -85,7 +85,7 @@
 }
 
 .search-car__tab-box .tab-buttons .tab-btn.active-btn span {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .search-car__tab-box .tab-buttons .tab-btn span:before {
@@ -95,7 +95,7 @@
     right: 0;
     bottom: 0;
     content: "";
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 10px;
     background-position: top bottom;
     opacity: 0;
@@ -163,7 +163,7 @@
 .search-car__input-title {
     font-size: 16px;
     font-weight: 500;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     position: relative;
     display: flex;
     align-items: center;
@@ -181,14 +181,14 @@
     height: 50px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--gorent-black-rgb), .10);
+    border: 1px solid rgba(var(--clt-black-rgb), .10);
     border-radius: 25px;
     padding-left: 20px;
     padding-right: 20px;
     outline: none;
     font-size: 16px;
     font-weight: 400;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     display: block;
 }
 
@@ -200,10 +200,10 @@
     height: 50px;
     width: 100%;
     background-color: transparent;
-    border: 1px solid rgba(var(--gorent-black-rgb), .10);
+    border: 1px solid rgba(var(--clt-black-rgb), .10);
     outline: none;
     font-size: 16px;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     font-weight: 400;
     border-radius: 25px;
     line-height: 50px;
@@ -219,14 +219,14 @@
     right: 20px;
     width: 8px;
     height: 8px;
-    border-bottom: 2px solid var(--gorent-gray);
-    border-right: 2px solid var(--gorent-gray);
+    border-bottom: 2px solid var(--clt-gray);
+    border-right: 2px solid var(--clt-gray);
     margin-top: 0px;
     z-index: 10;
 }
 
 .search-car__input-box .nice-select .option {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .search-car__input-box .nice-select .option.selected {
@@ -234,14 +234,14 @@
 }
 
 .search-car__input-box .nice-select .list {
-    background-color: var(--gorent-base);
-    border-radius: var(--gorent-bdr-radius);
+    background-color: var(--clt-base);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .search-car__input-box .nice-select .option:hover,
 .search-car__input-box .nice-select .option.focus,
 .search-car__input-box .nice-select .option.selected.focus {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .search-car__btn-box {

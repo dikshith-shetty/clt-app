@@ -30,7 +30,7 @@
     left: 0;
     right: 0;
     content: "";
-    background-color: rgba(var(--gorent-black-rgb), .85);
+    background-color: rgba(var(--clt-black-rgb), .85);
     opacity: 0;
     transform: translateY(50px);
     transition: background-color 0.7s ease;
@@ -65,7 +65,7 @@
     align-items: center;
     justify-content: center;
     font-size: 20px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     opacity: 0;
     transform: translateY(100px);
     transition: background-color 0.7s ease;
@@ -80,7 +80,7 @@
 }
 
 .gallery-one__img a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 

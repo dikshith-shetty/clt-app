@@ -5,7 +5,7 @@
     position: relative;
     display: block;
     overflow: hidden;
-    background-color: rgba(var(--gorent-extra-rgb), .30);
+    background-color: rgba(var(--clt-extra-rgb), .30);
     clip-path: polygon(50% 0%, 100% 0, 100% 81%, 81% 94%, 16% 94%, 0 100%, 0 0);
     padding: 146px 0 177px;
     z-index: 1;
@@ -31,7 +31,7 @@
     bottom: 0;
     right: 0;
     width: 360px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     z-index: 1;
 }
 
@@ -54,7 +54,7 @@
     bottom: -535px;
     left: -290px;
     width: 808px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     z-index: -1;
     transform: rotate(-45deg);
     opacity: .05;
@@ -73,7 +73,7 @@
 
 .banner-one__sub-title {
     font-size: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
 }
 
@@ -87,11 +87,11 @@
 }
 
 .banner-one__title span {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .banner-one__text {
-    color: rgba(var(--gorent-black-rgb), .70);
+    color: rgba(var(--clt-black-rgb), .70);
 }
 
 .banner-one__btn-box {

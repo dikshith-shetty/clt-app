@@ -27,7 +27,7 @@
     position: relative;
     display: block;
     cursor: pointer;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     padding: 8px 16px 8px;
     border-radius: 5px;
     overflow: hidden;
@@ -41,7 +41,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     background-position: center top;
     transition-delay: .1s;
     transition-timing-function: ease-in-out;
@@ -66,17 +66,17 @@
     display: inline-block;
     font-size: 16px;
     font-weight: 400;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .listing-one__tab-box .listing-one-tab-buttons .p-tab-btn:hover span {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .listing-one__tab-box .listing-one-tab-buttons .p-tab-btn.active-btn span {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .listing-one__tab-box .p-tabs-content {
@@ -141,8 +141,8 @@
     position: relative;
     display: block;
     overflow: hidden;
-    border-top-left-radius: var(--gorent-bdr-radius);
-    border-top-right-radius: var(--gorent-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
+    border-top-right-radius: var(--clt-bdr-radius);
     z-index: 1;
 }
 
@@ -156,8 +156,8 @@
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     transition-property: all;
-    background: rgba(var(--gorent-black-rgb), 0.6);
-    border-radius: var(--gorent-bdr-radius);
+    background: rgba(var(--clt-black-rgb), 0.6);
+    border-radius: var(--clt-bdr-radius);
     opacity: 0;
     z-index: 1;
     content: "";
@@ -169,8 +169,8 @@
 
 .listing-one__img img {
     width: 100%;
-    border-top-left-radius: var(--gorent-bdr-radius);
-    border-top-right-radius: var(--gorent-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
+    border-top-right-radius: var(--clt-bdr-radius);
     transition: .5s ease;
     transform: scale(1.05);
 }
@@ -183,24 +183,24 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     padding: 8px 25px;
     border-top-right-radius: 15px;
     z-index: 2;
 }
 
 .listing-one__brand-name p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-one__content {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
     padding: 23px 25px 30px;
-    border-bottom-left-radius: var(--gorent-bdr-radius);
-    border-bottom-right-radius: var(--gorent-bdr-radius);
+    border-bottom-left-radius: var(--clt-bdr-radius);
+    border-bottom-right-radius: var(--clt-bdr-radius);
 }
 
 .listing-one__title {
@@ -210,17 +210,17 @@
 }
 
 .listing-one__title a {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-one__title a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-one__meta-box-info {
     position: relative;
     display: block;
-    border-top: 1px solid rgba(var(--gorent-black-rgb), .10);
+    border-top: 1px solid rgba(var(--clt-black-rgb), .10);
     padding-top: 13px;
     margin-top: 18px;
 }
@@ -252,7 +252,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(var(--gorent-extra-rgb), .40);
+    background-color: rgba(var(--clt-extra-rgb), .40);
     padding: 10px 0;
     margin-top: 23px;
     margin-bottom: 30px;
@@ -262,13 +262,13 @@
 
 .listing-one__car-rent {
     font-size: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
     line-height: 30px;
 }
 
 .listing-one__car-rent span {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 700;
 }
 
@@ -302,7 +302,7 @@
     width: 50px;
     height: 10px;
     border-radius: 5px;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     margin: 0px;
     padding: 0px;
     transition: all 100ms linear;
@@ -310,7 +310,7 @@
 }
 
 .listing-one__carousel.owl-carousel .owl-dot.active {
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     width: 145px;
 }
 
@@ -344,9 +344,9 @@
 .listing-two__single {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.1);
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .listing-two__img-box {
@@ -357,8 +357,8 @@
 .listing-two__img {
     position: relative;
     display: block;
-    border-top-left-radius: var(--gorent-bdr-radius);
-    border-top-right-radius: var(--gorent-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
+    border-top-right-radius: var(--clt-bdr-radius);
     overflow: hidden;
     z-index: 1;
 }
@@ -370,7 +370,7 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(var(--gorent-black-rgb), .50);
+    background-color: rgba(var(--clt-black-rgb), .50);
     opacity: 0;
     transform: translateY(50px);
     transition: background-color 0.7s ease;
@@ -385,8 +385,8 @@
 
 .listing-two__img img {
     width: 100%;
-    border-top-left-radius: var(--gorent-bdr-radius);
-    border-top-right-radius: var(--gorent-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
+    border-top-right-radius: var(--clt-bdr-radius);
     transform: scale(1.0);
     transition: all 1500ms ease;
 }
@@ -403,7 +403,7 @@
 
 .listing-two__sub-title {
     font-weight: 500;
-    color: var(--gorent-base);
+    color: var(--clt-base);
     text-transform: capitalize;
 }
 
@@ -417,11 +417,11 @@
 }
 
 .listing-two__title a {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-two__title a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-two__price-and-btn {
@@ -448,7 +448,7 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 28px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-two__btn-box {
@@ -507,8 +507,8 @@
     position: relative;
     display: block;
     overflow: hidden;
-    border-top-left-radius: var(--gorent-bdr-radius);
-    border-top-right-radius: var(--gorent-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
+    border-top-right-radius: var(--clt-bdr-radius);
     z-index: 1;
 }
 
@@ -522,8 +522,8 @@
     transition-timing-function: ease-in-out;
     transition-duration: .7s;
     transition-property: all;
-    background: rgba(var(--gorent-black-rgb), 0.6);
-    border-radius: var(--gorent-bdr-radius);
+    background: rgba(var(--clt-black-rgb), 0.6);
+    border-radius: var(--clt-bdr-radius);
     opacity: 0;
     z-index: 1;
     content: "";
@@ -535,8 +535,8 @@
 
 .listing-three__img img {
     width: 100%;
-    border-top-left-radius: var(--gorent-bdr-radius);
-    border-top-right-radius: var(--gorent-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
+    border-top-right-radius: var(--clt-bdr-radius);
     transition: .5s ease;
     transform: scale(1.05);
 }
@@ -549,24 +549,24 @@
     position: absolute;
     bottom: 0;
     left: 0;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     padding: 8px 25px;
     border-top-right-radius: 15px;
     z-index: 2;
 }
 
 .listing-three__brand-name p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-three__content {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
     padding: 23px 25px 30px;
-    border-bottom-left-radius: var(--gorent-bdr-radius);
-    border-bottom-right-radius: var(--gorent-bdr-radius);
+    border-bottom-left-radius: var(--clt-bdr-radius);
+    border-bottom-right-radius: var(--clt-bdr-radius);
 }
 
 .listing-three__title {
@@ -576,18 +576,18 @@
 }
 
 .listing-three__title a {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-three__title a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-three__meta-box-info {
     position: relative;
     display: block;
-    border-top: 1px solid rgba(var(--gorent-black-rgb), .10);
-    border-bottom: 1px solid rgba(var(--gorent-black-rgb), .10);
+    border-top: 1px solid rgba(var(--clt-black-rgb), .10);
+    border-bottom: 1px solid rgba(var(--clt-black-rgb), .10);
     padding-top: 13px;
     margin-top: 18px;
     padding-bottom: 10px;
@@ -625,13 +625,13 @@
 
 .listing-three__car-rent {
     font-size: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
     line-height: 30px;
 }
 
 .listing-three__car-rent span {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 700;
 }
 
@@ -647,10 +647,10 @@
     justify-content: center;
     flex-wrap: wrap;
     font-size: 16px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     height: 40px;
     width: 40px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 50%;
 }
 
@@ -661,8 +661,8 @@
 }
 
 .listing-three__btn:hover {
-    background-color: var(--gorent-black);
-    color: var(--gorent-white);
+    background-color: var(--clt-black);
+    color: var(--clt-white);
 }
 
 .listing-three__carousel .owl-nav {
@@ -679,8 +679,8 @@
     width: 60px;
     line-height: 60px;
     border-radius: 50%;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border: none;
     font-size: 20px;
     margin: 0;
@@ -696,8 +696,8 @@
     width: 60px;
     line-height: 60px;
     border-radius: 50%;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border: none;
     font-size: 20px;
     margin: 0;
@@ -724,8 +724,8 @@
 
 .listing-three__carousel.owl-theme .owl-nav .owl-next:hover,
 .listing-three__carousel.owl-theme .owl-nav .owl-prev:hover {
-    background-color: rgba(var(--gorent-black-rgb), 1);
-    color: var(--gorent-white);
+    background-color: rgba(var(--clt-black-rgb), 1);
+    color: var(--clt-white);
 }
 
 /*--------------------------------------------------------------
@@ -803,22 +803,22 @@
     text-align: center;
     line-height: 40px;
     display: inline-block;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 700;
     font-size: 16px;
     border-radius: 10px;
     background-color: transparent;
-    border: 1px solid rgba(var(--gorent-black-rgb), .10);
-    font-family: var(--gorent-font-two);
+    border: 1px solid rgba(var(--clt-black-rgb), .10);
+    font-family: var(--clt-font-two);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .car-listing__pagination .pg-pagination li:hover a,
 .car-listing__pagination .pg-pagination li.active a {
-    border: 1px solid var(--gorent-base);
-    color: var(--gorent-black);
-    background-color: var(--gorent-base);
+    border: 1px solid var(--clt-base);
+    color: var(--clt-black);
+    background-color: var(--clt-base);
 }
 
 .car-listing__sidebar {
@@ -848,16 +848,16 @@
     left: 0;
     width: 17px;
     height: 17px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     clip-path: polygon(0 0, 0 100%, 100% 50%);
 }
 
 .car-listing__search {
     position: relative;
     display: block;
-    background-color: rgba(var(--gorent-bdr-color-rgb), .70);
+    background-color: rgba(var(--clt-bdr-color-rgb), .70);
     padding: 30px 30px 30px;
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .car-listing__search form {
@@ -868,12 +868,12 @@
 .car-listing__search form input[type=text] {
     width: 100%;
     height: 60px;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     padding-left: 30px;
     padding-right: 60px;
     font-size: 16px;
-    color: var(--gorent-gray);
-    font-family: var(--gorent-font);
+    color: var(--clt-gray);
+    font-family: var(--clt-font);
     border: none;
     outline: none;
     font-weight: 400;
@@ -886,8 +886,8 @@
 }
 
 .car-listing__search form button[type="submit"] {
-    background-color: var(--gorent-base);
-    color: var(--gorent-white);
+    background-color: var(--clt-base);
+    color: var(--clt-white);
     font-size: 18px;
     position: absolute;
     top: 5px;
@@ -906,8 +906,8 @@
 }
 
 .car-listing__search form button:hover[type="submit"] {
-    background-color: var(--gorent-black);
-    color: var(--gorent-white);
+    background-color: var(--clt-black);
+    color: var(--clt-white);
 }
 
 
@@ -918,8 +918,8 @@
     position: relative;
     padding: 27px 30px 30px;
     margin: 0;
-    background-color: rgba(var(--gorent-bdr-color-rgb), .70);
-    border-radius: var(--gorent-bdr-radius);
+    background-color: rgba(var(--clt-bdr-color-rgb), .70);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .car-listing__price-ranger.price-ranger {
@@ -928,7 +928,7 @@
 }
 
 .car-listing__price-ranger .price-ranger .ui-widget-content {
-    background: var(--gorent-black);
+    background: var(--clt-black);
     border: none;
     height: 5px;
 }
@@ -936,7 +936,7 @@
 .car-listing__price-ranger .price-ranger .ui-slider-handle {
     position: absolute;
     top: -5px;
-    background: var(--gorent-base);
+    background: var(--clt-base);
     border: 0;
     height: 14px;
     width: 14px !important;
@@ -948,7 +948,7 @@
 }
 
 .car-listing__price-ranger .price-ranger .ui-slider .ui-slider-range {
-    background: var(--gorent-base);
+    background: var(--clt-base);
 }
 
 .car-listing__price-ranger .price-ranger #slider-range {
@@ -970,11 +970,11 @@
 .car-listing__price-ranger .price-ranger .ranger-min-max-block input[type="submit"] {
     position: relative;
     display: block;
-    background: var(--gorent-black);
+    background: var(--clt-black);
     float: right;
     text-align: center;
     border: none;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     font-size: 12px;
     font-weight: 700;
     margin-top: 0;
@@ -988,7 +988,7 @@
 .car-listing__price-ranger .price-ranger .ranger-min-max-block input[type="text"] {
     position: relative;
     display: inline-block;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     font-size: 14px;
     font-weight: 400;
     width: 40px;
@@ -1002,7 +1002,7 @@
 .car-listing__price-ranger .price-ranger .ranger-min-max-block span {
     position: relative;
     display: inline-block;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     font-size: 14px;
     font-weight: 400;
     line-height: 40px;
@@ -1015,8 +1015,8 @@
     position: relative;
     display: block;
     padding: 27px 30px 30px;
-    background-color: rgba(var(--gorent-bdr-color-rgb), .70);
-    border-radius: var(--gorent-bdr-radius);
+    background-color: rgba(var(--clt-bdr-color-rgb), .70);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .car-listing__category ul {
@@ -1030,7 +1030,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     padding: 10px 15px 10px;
     border-radius: 10px;
 }
@@ -1050,13 +1050,13 @@
     padding-left: 30px;
     margin-right: 0px;
     margin-bottom: 0;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     text-transform: none;
     cursor: pointer;
-    font-family: var(--gorent-font);
+    font-family: var(--clt-font);
 }
 
 .car-listing__category ul li .checked-box input[type="checkbox"] {
@@ -1072,7 +1072,7 @@
     border-radius: 5px;
     vertical-align: middle;
     background-color: transparent;
-    background: var(--gorent-base);
+    background: var(--clt-base);
     cursor: pointer;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -1087,8 +1087,8 @@
     top: 4px;
     left: 6px;
     display: block;
-    border-bottom: 2px solid var(--gorent-white);
-    border-right: 2px solid var(--gorent-white);
+    border-bottom: 2px solid var(--clt-white);
+    border-right: 2px solid var(--clt-white);
     content: '';
     width: 6px;
     height: 9px;
@@ -1105,7 +1105,7 @@
 }
 
 .car-listing__category ul li.checked-box input[type="checkbox"]:checked+label span {
-    border-color: var(--gorent-white);
+    border-color: var(--clt-white);
 }
 
 .car-listing__category ul li .checked-box input[type="checkbox"]:checked+label span:before {
@@ -1117,8 +1117,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--gorent-bdr-color);
-    color: var(--gorent-black);
+    background-color: var(--clt-bdr-color);
+    color: var(--clt-black);
     padding: 5px 8px 4px;
     border-radius: 10px;
 }
@@ -1136,8 +1136,8 @@
     position: relative;
     display: block;
     padding: 27px 30px 30px;
-    background-color: rgba(var(--gorent-bdr-color-rgb), .70);
-    border-radius: var(--gorent-bdr-radius);
+    background-color: rgba(var(--clt-bdr-color-rgb), .70);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .car-listing__rating-box {
@@ -1191,7 +1191,7 @@
     width: 15px;
     height: 15px;
     overflow: hidden;
-    border: 1px solid var(--gorent-gray);
+    border: 1px solid var(--clt-gray);
     border-radius: 50%;
     transition: all 200ms linear;
     transition-delay: 0.1s;
@@ -1205,14 +1205,14 @@
     bottom: -1px;
     right: -1px;
     transform: scale(0);
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 50%;
     transition: all 200ms linear;
     transition-delay: 0.1s;
 }
 
 .car-listing__rating-box ul li input[type=radio]:checked+label i {
-    border-color: var(--gorent-base);
+    border-color: var(--clt-base);
 }
 
 .car-listing__rating-box ul li input[type=radio]:checked+label i::before {
@@ -1223,8 +1223,8 @@
     position: relative;
     display: block;
     padding: 27px 30px 30px;
-    background-color: rgba(var(--gorent-bdr-color-rgb), .70);
-    border-radius: var(--gorent-bdr-radius);
+    background-color: rgba(var(--clt-bdr-color-rgb), .70);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .car-listing__google-map-box {
@@ -1309,7 +1309,7 @@
 
 .listing-single__sub-title {
     font-weight: 600;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__car-details-box {
@@ -1337,7 +1337,7 @@
     justify-content: center;
     gap: 10px;
     padding: 5px 22px 5px;
-    background-color: rgba(var(--gorent-base-rgb), .15);
+    background-color: rgba(var(--clt-base-rgb), .15);
     border-radius: 6px;
 }
 
@@ -1345,11 +1345,11 @@
     position: relative;
     display: inline-block;
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__car-details li p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
 }
 
@@ -1373,12 +1373,12 @@
     align-items: center;
     flex-wrap: wrap;
     gap: 12px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 600;
 }
 
 .listing-single__tag a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-single__tag a span {
@@ -1388,18 +1388,18 @@
     justify-content: center;
     height: 30px;
     width: 30px;
-    border: 1px solid var(--gorent-bdr-color);
+    border: 1px solid var(--clt-bdr-color);
     border-radius: 50%;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-size: 15px;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .listing-single__tag a:hover span {
-    border: 1px solid var(--gorent-base);
-    background-color: var(--gorent-base);
-    color: var(--gorent-white);
+    border: 1px solid var(--clt-base);
+    background-color: var(--clt-base);
+    color: var(--clt-white);
 }
 
 .listing-single__price {
@@ -1425,7 +1425,7 @@
 }
 
 .listing-single__offer-price .icon span {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-size: 18px;
 }
 
@@ -1437,7 +1437,7 @@
 .listing-single__offer-price .text p {
     font-size: 18px;
     font-weight: 600;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__inner {
@@ -1515,7 +1515,7 @@
 
 .listing-single__meta li .icon span {
     font-size: 18px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-single__meta li .text {
@@ -1525,13 +1525,13 @@
 }
 
 .listing-single__meta li .text p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__meta li .text p a {
     position: relative;
     display: inline-block;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 700;
     text-decoration: underline;
 }
@@ -1579,8 +1579,8 @@
     line-height: 50px;
     text-align: center;
     font-size: 18px;
-    color: var(--gorent-base);
-    background-color: var(--gorent-black);
+    color: var(--clt-base);
+    background-color: var(--clt-black);
     border-radius: 50%;
     transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -1590,8 +1590,8 @@
 }
 
 .listing-single__video-icon:hover {
-    background-color: var(--gorent-base);
-    color: var(--gorent-white);
+    background-color: var(--clt-base);
+    color: var(--clt-white);
 }
 
 .listing-single__video-link .ripple,
@@ -1605,10 +1605,10 @@
     border-radius: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    -ms-box-shadow: 0 0 0 0 rgba(var(--gorent-base-rgb), 0.6);
-    -o-box-shadow: 0 0 0 0 rgba(var(--gorent-base-rgb), 0.6);
-    -webkit-box-shadow: 0 0 0 0 rgba(var(--gorent-base-rgb), 0.6);
-    box-shadow: 0 0 0 0 rgba(var(--gorent-base-rgb), 0.6);
+    -ms-box-shadow: 0 0 0 0 rgba(var(--clt-base-rgb), 0.6);
+    -o-box-shadow: 0 0 0 0 rgba(var(--clt-base-rgb), 0.6);
+    -webkit-box-shadow: 0 0 0 0 rgba(var(--clt-base-rgb), 0.6);
+    box-shadow: 0 0 0 0 rgba(var(--clt-base-rgb), 0.6);
     -webkit-animation: ripple 3s infinite;
     animation: ripple 3s infinite;
 }
@@ -1629,9 +1629,9 @@
 
 .listing-single__video-title {
     font-size: 20px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 600;
-    font-family: var(--gorent-font);
+    font-family: var(--clt-font);
 }
 
 .listing-single__thumb-box {
@@ -1690,7 +1690,7 @@
     right: 0px;
     bottom: 0px;
     content: "";
-    background-color: rgba(var(--gorent-base-rgb), 0);
+    background-color: rgba(var(--clt-base-rgb), 0);
     border-radius: 10px;
     z-index: 1;
     transition: all 500ms ease;
@@ -1698,7 +1698,7 @@
 
 .swiper-slide-active .listing-single__img-holder:before,
 .swiper-slide-thumb-active .listing-single__img-holder:before {
-    background-color: rgba(var(--gorent-black-rgb), .40);
+    background-color: rgba(var(--clt-black-rgb), .40);
 }
 
 .listing-single__img-holder>img {
@@ -1728,8 +1728,8 @@
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border: none;
     border-radius: 50%;
     margin: 0;
@@ -1751,8 +1751,8 @@
     justify-content: center;
     align-items: center;
     font-size: 18px;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border: none;
     border-radius: 50%;
     margin: 0;
@@ -1764,8 +1764,8 @@
 
 .listing-single__nav .swiper-button-next:hover,
 .listing-single__nav .swiper-button-prev:hover {
-    color: var(--gorent-white);
-    background-color: var(--gorent-black);
+    color: var(--clt-white);
+    background-color: var(--clt-black);
 }
 
 .listing-single__nav .swiper-button-next {
@@ -1846,12 +1846,12 @@
     position: relative;
     display: inline-block;
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__car-overview-point-left p {
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__car-overview-point-right {
@@ -1862,14 +1862,14 @@
 
 .listing-single__car-overview-point-right p {
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .listing-single__description {
     position: relative;
     display: block;
-    border-top: 1px solid var(--gorent-bdr-color);
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-top: 1px solid var(--clt-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     padding-top: 45px;
     padding-bottom: 40px;
     margin-top: 45px;
@@ -1943,8 +1943,8 @@
     justify-content: center;
     height: 20px;
     width: 20px;
-    background-color: var(--gorent-base);
-    color: var(--gorent-white);
+    background-color: var(--clt-base);
+    color: var(--clt-white);
     font-size: 8px;
     border-radius: 5px;
 }
@@ -1955,7 +1955,7 @@
 }
 
 .listing-single__feature-point li .text p {
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-size: 18px;
     font-weight: 500;
 }
@@ -1964,7 +1964,7 @@
     position: relative;
     display: block;
     margin-top: 50px;
-    border-top: 1px solid var(--gorent-bdr-color);
+    border-top: 1px solid var(--clt-bdr-color);
     padding-top: 50px;
 }
 
@@ -1977,7 +1977,7 @@
 }
 
 .listing-single__review-and-comment .comments-area .comment-box {
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
 }
 
 .listing-single__sidebar {
@@ -1995,11 +1995,11 @@
     position: relative;
     display: block;
     text-align: center;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
-    border: 1px solid var(--gorent-bdr-color);
+    border: 1px solid var(--clt-bdr-color);
     padding: 35px 30px 26px;
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .listing-single__rent-car-daily-price p {
@@ -2016,11 +2016,11 @@
 .listing-single__rent-car {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
-    border: 1px solid var(--gorent-bdr-color);
+    border: 1px solid var(--clt-bdr-color);
     padding: 27px 30px 30px;
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .listing-single__rent-car-title {
@@ -2051,7 +2051,7 @@
 
 .listing-single__rent-car-date-title {
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 500;
     margin-bottom: 10px;
 }
@@ -2069,14 +2069,14 @@
     height: 50px;
     width: 60%;
     background-color: transparent;
-    border: 1px solid var(--gorent-bdr-color);
+    border: 1px solid var(--clt-bdr-color);
     border-radius: 12px;
     padding-left: 20px;
     padding-right: 20px;
     outline: none;
     font-size: 16px;
     font-weight: 400;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     display: block;
 }
 
@@ -2087,8 +2087,8 @@
 .listing-single__rent-car-extra {
     position: relative;
     display: block;
-    border-top: 1px solid var(--gorent-bdr-color);
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-top: 1px solid var(--clt-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     margin-top: 30px;
     padding-top: 15px;
     margin-bottom: 25px;
@@ -2113,7 +2113,7 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-bottom: 1px solid var(--gorent-bdr-color);
+    border-bottom: 1px solid var(--clt-bdr-color);
     padding-bottom: 8px;
 }
 
@@ -2137,13 +2137,13 @@
     padding-left: 30px;
     margin-right: 0px;
     margin-bottom: 0;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     text-transform: none;
     cursor: pointer;
-    font-family: var(--gorent-font);
+    font-family: var(--clt-font);
 }
 
 .listing-single__rent-car-extra ul li .checked-box input[type="checkbox"] {
@@ -2159,7 +2159,7 @@
     border-radius: 5px;
     vertical-align: middle;
     background-color: transparent;
-    background: var(--gorent-extra);
+    background: var(--clt-extra);
     cursor: pointer;
     -webkit-transition: all 300ms ease;
     -moz-transition: all 300ms ease;
@@ -2174,8 +2174,8 @@
     top: 4px;
     left: 6px;
     display: block;
-    border-bottom: 2px solid var(--gorent-black);
-    border-right: 2px solid var(--gorent-black);
+    border-bottom: 2px solid var(--clt-black);
+    border-right: 2px solid var(--clt-black);
     content: '';
     width: 6px;
     height: 9px;
@@ -2192,7 +2192,7 @@
 }
 
 .listing-single__rent-car-extra ul li.checked-box input[type="checkbox"]:checked+label span {
-    border-color: var(--gorent-white);
+    border-color: var(--clt-white);
 }
 
 .listing-single__rent-car-extra ul li .checked-box input[type="checkbox"]:checked+label span:before {
@@ -2228,7 +2228,7 @@
 
 .listing-single__rent-car-price-box ul li .title p {
     font-size: 18px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 400;
 }
 
@@ -2243,7 +2243,7 @@
 
 .listing-single__rent-car-price-box ul li .price p {
     font-size: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 600;
 }
 
@@ -2262,17 +2262,17 @@
 .listing-single__contact-info {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
-    border: 1px solid var(--gorent-bdr-color);
+    border: 1px solid var(--clt-bdr-color);
     padding: 30px 30px 30px;
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .listing-single__contact-phone {
     position: relative;
     display: block;
-    background-color: rgba(var(--gorent-extra-rgb), .50);
+    background-color: rgba(var(--clt-extra-rgb), .50);
     padding: 25px 25px 18px;
     border-radius: 10px;
     margin-bottom: 15px;
@@ -2283,19 +2283,19 @@
     display: flex;
     align-items: center;
     font-size: 20px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-weight: 600;
 }
 
 .listing-single__contact-phone-number:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-single__contact-phone-number span {
     position: relative;
     display: inline-block;
     font-size: 25px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
     padding-right: 15px;
 }
 
@@ -2317,8 +2317,8 @@
     justify-content: center;
     font-size: 16px;
     font-weight: 500;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border-radius: 10px;
     padding: 13px 0 13px;
 }
@@ -2336,27 +2336,27 @@
 }
 
 .listing-single__contact-btn-box a:nth-child(2) {
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
 }
 
 .listing-single__contact-btn-box a:nth-child(3) {
-    background-color: rgba(var(--gorent-extra-rgb), .50);
-    color: var(--gorent-black);
+    background-color: rgba(var(--clt-extra-rgb), .50);
+    color: var(--clt-black);
 }
 
 .listing-single__contact-btn-box a:hover {
-    color: var(--gorent-white);
-    background-color: var(--gorent-black);
+    color: var(--clt-white);
+    background-color: var(--clt-black);
 }
 
 .listing-single__seller-info {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
-    border: 1px solid var(--gorent-bdr-color);
+    border: 1px solid var(--clt-bdr-color);
     padding: 30px 30px 30px;
-    border-radius: var(--gorent-bdr-radius);
+    border-radius: var(--clt-bdr-radius);
 }
 
 .listing-single__seller-info-details {
@@ -2394,7 +2394,7 @@
     font-size: 16px;
     font-weight: 600;
     line-height: 26px;
-    font-family: var(--gorent-font);
+    font-family: var(--clt-font);
     position: relative;
     display: flex;
     align-items: center;
@@ -2411,7 +2411,7 @@
     background-color: #27C200;
     border-radius: 50%;
     font-size: 6px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .listing-single__seller-contact-info {
@@ -2443,7 +2443,7 @@
 }
 
 .listing-single__seller-contact-info-list li .icon i {
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-size: 17px;
 }
 
@@ -2461,7 +2461,7 @@
 }
 
 .listing-single__seller-contact-info-list li .text p a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .listing-single__seller-profile {

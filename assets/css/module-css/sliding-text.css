@@ -4,7 +4,7 @@
 .sliding-text-one {
     position: relative;
     display: block;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     padding: 23px 0 22px;
     z-index: 1;
 }
@@ -35,7 +35,7 @@
     display: flex;
     align-items: center;
     gap: 25px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     font-size: 45px;
     line-height: 55px;
     font-weight: 700;
@@ -43,7 +43,7 @@
     text-transform: uppercase;
     transition: all 200ms linear;
     transition-delay: 0.1s;
-    font-family: var(--gorent-font-two);
+    font-family: var(--clt-font-two);
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
 }
@@ -59,7 +59,7 @@
     top: 0;
     left: 0;
     width: 0;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     white-space: nowrap;
     content: attr(data-hover);
     transition: all 0.5s cubic-bezier(0.17, 0.67, 0.32, 0.87);
@@ -67,7 +67,7 @@
 
 .sliding-text__list li:hover .sliding-text__title:before {
     width: 100%;
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 

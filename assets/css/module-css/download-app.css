@@ -4,7 +4,7 @@
 .download-app-one {
     position: relative;
     display: block;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     padding: 120px 0 120px;
     z-index: 1;
 }
@@ -38,14 +38,14 @@
 
 .download-app-one__sub-title {
     font-size: 20px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
     font-weight: 500;
     line-height: 20px;
 }
 
 .download-app-one__title {
     font-size: 50px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
     line-height: 1.3em;
     font-weight: 700;
     text-transform: uppercase;
@@ -55,7 +55,7 @@
 
 .download-app-one__text {
     font-size: 18px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     line-height: 28px;
 }
 
@@ -73,7 +73,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     padding: 15px 30px 15px;
     border-radius: 10px;
 }

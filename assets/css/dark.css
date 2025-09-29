@@ -7,7 +7,7 @@ body .blog-one,
 .lets-talk__btn-1 .thm-btn::after,
 .faq-one .faq-one-accrodion .accrodion,
 .booking-one__content {
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
 }
 
 
@@ -34,19 +34,19 @@ body .blog-one,
 .main-menu__cart,
 .main-menu__call-number a,
 .about-one__progress .count-text {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .main-menu .main-menu__list>li.current>a::after,
 .main-menu .main-menu__list>li:hover>a::after,
 .stricky-header .main-menu__list>li.current>a::after,
 .stricky-header .main-menu__list>li:hover>a::after {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .team-one__buttons-experience-years-text,
 .pricing-one__text {
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
 }
 
 
@@ -94,12 +94,12 @@ body .blog-one,
 .booking-one__input-box input[type="text"],
 .booking-one__input-box input[type="email"],
 .booking-one__input-box .nice-select {
-    border: 1px solid rgba(var(--gorent-white-rgb), .10);
+    border: 1px solid rgba(var(--clt-white-rgb), .10);
 }
 
 .booking-one__input-box .nice-select:after {
-    border-bottom: 2px solid var(--gorent-gray);
-    border-right: 2px solid var(--gorent-gray);
+    border-bottom: 2px solid var(--clt-gray);
+    border-right: 2px solid var(--clt-gray);
 }
 
 
@@ -132,7 +132,7 @@ body .blog-one,
 .testimonial-one__single:hover .testimonial-one__quote span,
 .pricing-one__single:hover .pricing-one__icon-box span,
 .thm-btn:hover {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 
@@ -145,19 +145,19 @@ body .blog-one,
 .testimonial-one__single:hover .testimonial-one__quote,
 .pricing-one__icon-box::before,
 .thm-btn::after {
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
 }
 
 
 .blog-one__carousel.owl-theme .owl-nav .owl-next:hover,
 .blog-one__carousel.owl-theme .owl-nav .owl-prev:hover {
-    background-color: var(--gorent-white) !important;
-    color: var(--gorent-black) !important;
+    background-color: var(--clt-white) !important;
+    color: var(--clt-black) !important;
 }
 
 
 .listing-one__carousel.owl-carousel .owl-dot.active {
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
 }
 
 
@@ -165,12 +165,12 @@ body .blog-one,
 
 .brand-one,
 .pricing-one__price-and-icon-box {
-    border-bottom: 1px solid rgba(var(--gorent-white-rgb), .10);
+    border-bottom: 1px solid rgba(var(--clt-white-rgb), .10);
 }
 
 .faq-one .faq-one-accrodion .accrodion.active {
-    border: 1px solid rgba(var(--gorent-white-rgb), 0.05);
-    background: rgba(var(--gorent-white-rgb), 0.05);
+    border: 1px solid rgba(var(--clt-white-rgb), 0.05);
+    background: rgba(var(--clt-white-rgb), 0.05);
 }
 
 .team-one {
@@ -183,15 +183,15 @@ body .blog-one,
 
 
 .main-menu .mobile-nav__toggler:hover {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .about-one__call-box-icon:hover {
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
 }
 
 .about-one__call-box-icon:hover span {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .services-one__single:hover::after {

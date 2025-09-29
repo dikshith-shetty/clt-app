@@ -4,7 +4,7 @@
 .site-footer {
     position: relative;
     display: block;
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
     z-index: 1;
 }
 
@@ -45,7 +45,7 @@
 
 .footer-widget__about-text {
     margin: 0;
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
     padding-top: 24px;
     padding-bottom: 62px;
 }
@@ -66,11 +66,11 @@
     height: 60px;
     width: 100%;
     background-color: transparent;
-    border: 2px solid rgba(var(--gorent-white-rgb), .10);
+    border: 2px solid rgba(var(--clt-white-rgb), .10);
     border-radius: 40px;
     outline: none;
     font-size: 18px;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     font-weight: 400;
     padding-right: 90px;
     padding-left: 40px;
@@ -85,8 +85,8 @@
     width: 60px;
     height: 60px;
     font-size: 20px;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border-radius: 50%;
     transform: translateY(-50%);
     -webkit-transition: all 500ms ease;
@@ -97,15 +97,15 @@
 }
 
 .footer-widget__btn:hover {
-    color: var(--gorent-base);
-    background-color: var(--gorent-white);
+    color: var(--clt-base);
+    background-color: var(--clt-white);
 }
 
 .footer-widget__title {
     position: relative;
     display: inline-block;
     font-size: 22px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     font-weight: 600;
     line-height: 32px;
     margin-bottom: 32px;
@@ -127,7 +127,7 @@
 }
 
 .footer-widget__links-list li a {
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
     position: relative;
     display: inline-block;
     text-transform: capitalize;
@@ -136,7 +136,7 @@
 }
 
 .footer-widget__links-list li a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .footer-widget__contact {
@@ -168,36 +168,36 @@
     justify-content: center;
     width: 40px;
     height: 40px;
-    border: 1px solid rgba(var(--gorent-white-rgb), .10);
+    border: 1px solid rgba(var(--clt-white-rgb), .10);
     border-radius: 50%;
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .footer-widget__contact-list li .icon:hover {
-    background-color: var(--gorent-base);
-    border: 1px solid var(--gorent-base);
+    background-color: var(--clt-base);
+    border: 1px solid var(--clt-base);
 }
 
 .footer-widget__contact-list li .icon span {
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .footer-widget__contact-list li p {
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
 }
 
 .footer-widget__contact-list li p a {
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
 }
 
 .footer-widget__contact-list li p a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .footer-widget__services {
@@ -209,7 +209,7 @@
 .site-footer__bottom {
     position: relative;
     display: block;
-    border-top: 1px solid rgba(var(--gorent-white-rgb), .20);
+    border-top: 1px solid rgba(var(--clt-white-rgb), .20);
 }
 
 .site-footer__bottom-inner {
@@ -226,15 +226,15 @@
 }
 
 .site-footer__copyright-text {
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
 }
 
 .site-footer__copyright-text a {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .site-footer__copyright-text a:hover {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .site-footer__bottom-menu-box {
@@ -261,13 +261,13 @@
 .site-footer__bottom-menu li a {
     position: relative;
     display: inline-block;
-    color: rgba(var(--gorent-white-rgb), .70);
+    color: rgba(var(--clt-white-rgb), .70);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .site-footer__bottom-menu li a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 

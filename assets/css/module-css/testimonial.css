@@ -20,8 +20,8 @@
 .testimonial-one__single {
     position: relative;
     display: block;
-    border: 1px solid var(--gorent-bdr-color);
-    border-radius: var(--gorent-bdr-radius);
+    border: 1px solid var(--clt-bdr-color);
+    border-radius: var(--clt-bdr-radius);
     padding: 25px 30px 25px;
     z-index: 1;
 }
@@ -62,11 +62,11 @@
 }
 
 .testimonial-one__client-name a {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .testimonial-one__client-name a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .testimonial-one__rating {
@@ -83,7 +83,7 @@
     display: flex;
     align-items: center;
     font-size: 15px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .testimonial-one__quote {
@@ -92,7 +92,7 @@
     right: -1px;
     height: 60px;
     width: 60px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 50%;
     border-top-right-radius: 0;
     display: flex;
@@ -103,18 +103,18 @@
 }
 
 .testimonial-one__single:hover .testimonial-one__quote {
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
 }
 
 .testimonial-one__quote span {
     font-size: 22px;
-    color: var(--gorent-black);
+    color: var(--clt-black);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .testimonial-one__single:hover .testimonial-one__quote span {
-    color: var(--gorent-white);
+    color: var(--clt-white);
 }
 
 .testimonial-one__carousel .owl-nav {
@@ -131,8 +131,8 @@
     width: 60px;
     line-height: 60px;
     border-radius: 50%;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border: none;
     font-size: 20px;
     margin: 0;
@@ -148,8 +148,8 @@
     width: 60px;
     line-height: 60px;
     border-radius: 50%;
-    color: var(--gorent-white);
-    background-color: var(--gorent-base);
+    color: var(--clt-white);
+    background-color: var(--clt-base);
     border: none;
     font-size: 20px;
     margin: 0;
@@ -176,8 +176,8 @@
 
 .testimonial-one__carousel.owl-theme .owl-nav .owl-next:hover,
 .testimonial-one__carousel.owl-theme .owl-nav .owl-prev:hover {
-    background-color: rgba(var(--gorent-black-rgb), 1);
-    color: var(--gorent-white);
+    background-color: rgba(var(--clt-black-rgb), 1);
+    color: var(--clt-white);
 }
 
 /*--------------------------------------------------------------
@@ -198,7 +198,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(var(--gorent-extra-rgb), .30);
+    background-color: rgba(var(--clt-extra-rgb), .30);
     z-index: -1;
 }
 
@@ -253,11 +253,11 @@
 .testimonial-two__single {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
     padding: 59px 30px 22px;
-    border-radius: var(--gorent-bdr-radius);
-    border-top: 10px solid var(--gorent-base);
+    border-radius: var(--clt-bdr-radius);
+    border-top: 10px solid var(--clt-base);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
     z-index: 2;
@@ -265,7 +265,7 @@
 
 .testimonial-two__single:hover {
     transform: translateY(-10px);
-    border-top: 10px solid var(--gorent-black);
+    border-top: 10px solid var(--clt-black);
 }
 
 .testimonial-two__img {
@@ -280,7 +280,7 @@
 }
 
 .testimonial-two__img:before {
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 120px 120px 0 0;
     content: "";
     height: 50%;
@@ -293,13 +293,13 @@
 }
 
 .testimonial-two__single:hover .testimonial-two__img:before {
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
 }
 
 .testimonial-two__img img {
     width: 100%;
     border-radius: 50%;
-    border: 5px solid var(--gorent-white);
+    border: 5px solid var(--clt-white);
 }
 
 .testimonial-two__client-info {
@@ -325,11 +325,11 @@
 }
 
 .testimonial-two__client-name a {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .testimonial-two__client-name a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .testimonial-two__rating {
@@ -344,14 +344,14 @@
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .testimonial-two__text {
     font-size: 17px;
     font-weight: 400;
     line-height: 29px;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
 }
 
 .testimonial-two__quote {
@@ -361,18 +361,18 @@
     justify-content: center;
     height: 50px;
     width: 50px;
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     margin-top: -66px;
     margin-bottom: 20px;
     margin-left: -30px;
-    border-bottom-right-radius: var(--gorent-bdr-radius);
-    border-top-left-radius: var(--gorent-bdr-radius);
+    border-bottom-right-radius: var(--clt-bdr-radius);
+    border-top-left-radius: var(--clt-bdr-radius);
     -webkit-transition: all 500ms ease;
     transition: all 500ms ease;
 }
 
 .testimonial-two__single:hover .testimonial-two__quote {
-    background-color: var(--gorent-black);
+    background-color: var(--clt-black);
 }
 
 .testimonial-two__quote span {
@@ -380,7 +380,7 @@
     display: inline-block;
     font-size: 22px;
     line-height: 22px;
-    color: var(--gorent-white);
+    color: var(--clt-white);
     top: -3px;
 }
 
@@ -412,8 +412,8 @@
     justify-content: center;
     align-items: center;
     font-size: 18px !important;
-    color: var(--gorent-white) !important;
-    background-color: rgba(var(--gorent-base-rgb), 1) !important;
+    color: var(--clt-white) !important;
+    background-color: rgba(var(--clt-base-rgb), 1) !important;
     border-radius: 50%;
     margin: 0;
     text-align: center;
@@ -441,8 +441,8 @@
 
 .testimonial-two__carousel.owl-theme .owl-nav .owl-next:hover,
 .testimonial-two__carousel.owl-theme .owl-nav .owl-prev:hover {
-    background-color: var(--gorent-black) !important;
-    color: var(--gorent-white) !important;
+    background-color: var(--clt-black) !important;
+    color: var(--clt-white) !important;
 }
 
 /*--------------------------------------------------------------
@@ -489,11 +489,11 @@
 .testimonial-three__single {
     position: relative;
     display: block;
-    background-color: var(--gorent-white);
+    background-color: var(--clt-white);
     box-shadow: 0px 10px 60px 0px rgb(0 0 0 / 7%);
     padding: 49px 49px 41px;
-    border-radius: var(--gorent-bdr-radius);
-    border-top: 5px solid var(--gorent-base);
+    border-radius: var(--clt-bdr-radius);
+    border-top: 5px solid var(--clt-base);
     transition: all 500ms ease;
     z-index: 1;
 }
@@ -510,7 +510,7 @@
 }
 
 .testimonial-three__img:before {
-    background-color: var(--gorent-base);
+    background-color: var(--clt-base);
     border-radius: 101px 101px 0 0;
     content: "";
     height: 50%;
@@ -547,11 +547,11 @@
 }
 
 .testimonial-three__client-name a {
-    color: var(--gorent-black);
+    color: var(--clt-black);
 }
 
 .testimonial-three__client-name a:hover {
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .testimonial-three__rating {
@@ -568,7 +568,7 @@
     position: relative;
     display: inline-block;
     font-size: 16px;
-    color: var(--gorent-base);
+    color: var(--clt-base);
 }
 
 .testimonial-three__quote {
@@ -583,7 +583,7 @@
     display: inline-block;
     font-size: 120px;
     line-height: 120px;
-    color: var(--gorent-gray);
+    color: var(--clt-gray);
     opacity: .05;
     font-weight: 900;
 }
@@ -611,8 +611,8 @@
     justify-content: center;
     align-items: center;
     font-size: 18px !important;
-    color: var(--gorent-white) !important;
-    background-color: rgba(var(--gorent-base-rgb), 1) !important;
+    color: var(--clt-white) !important;
+    background-color: rgba(var(--clt-base-rgb), 1) !important;
     border-radius: 50%;
     margin: 0;
     text-align: center;
@@ -640,8 +640,8 @@
 
 .testimonial-three__carousel.owl-theme .owl-nav .owl-next:hover,
 .testimonial-three__carousel.owl-theme .owl-nav .owl-prev:hover {
-    background-color: var(--gorent-black) !important;
-    color: var(--gorent-white) !important;
+    background-color: var(--clt-black) !important;
+    color: var(--clt-white) !important;
 }
 
 /*--------------------------------------------------------------
